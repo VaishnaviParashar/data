@@ -1,0 +1,101 @@
+#OneWay Trip Object Property
+E_From=src:=ID		# source
+E_To=dest:=ID #Destination
+E_Departure=departure:=ID  #Departure
+E_Return=return:=ID #Return
+E_SearchBuses=//div[@id='return-cal']//span[@id='vc-close']:=Xpath # Searchbuses
+
+
+# Round Trip Object Propert
+E_From=src:=ID		# source
+E_To=dest:=ID #Destination
+E_Departure=departure:=ID  #Departure
+E_Return=return:=ID #Return
+E_SearchBuses=//div[@id='return-cal']//span[@id='vc-close']:=Xpath # Searchbuses
+
+# Packages
+E_From=pkg_src:=ID# source
+E_To=pkg_dest:=ID #Destination
+E_Departure=pkg_departure:=ID  #Departure
+E_SearchBuses=//*[contains(@value,'Search Buses')]:=Xpath #Searchbuses
+
+#One way
+
+
+#View seats buttons
+E_SearchBuses=//div[contains(@class,'row flex item-start u_pad0 bus-search-container')]//ul[2]//li[1]//section[2]//button[1]:=Xpath #ViewSeats
+
+E_Choose Boarding Point=//fieldset[@class='flex u_marT5']//select[@class='selectPickup selt-option']:=Xpath #Choose boarding point
+E_Choose Dropping Point=//select[@class='selectDrop selt-option']:=xpath #choose Dropping point
+E_Proceed With Seats=//button[@class='CTA-green proceed u_font14 u_fontW600']:=xpath #proceed with seats button
+E_Select Title=room1Adult1Title:=ID #tile
+E_Name=Adult1FirstName :=ID #Name
+E_Age=Adult1Age :=Age #Name
+E_Select country code=ISDCodeTr:=ID #country code
+E_Mobile=contactMobile:=ID #mobile 
+E_Email=contactEmail:=ID #Email
+E_ckeckBox=//label[@for='domestic_insurance'] :=Xpath #add travel insurance
+E_ViaCash=//div[contains(text(),'Login to use your ViaCash balance')] :=Xpath # via cash payment
+E_checkbox=read_terms_label:=ID #checkbox for terms and conditions
+E_Proceed to booking=makePayCTA:=ID #proceed to booking button
+
+E_Make Payment=confirmProceedPayBtn:=ID #Make payment
+
+#Round Trip
+E_SearchBuses=//div[contains(@class,'row flex item-start u_pad0 bus-search-container')]//ul[2]//li[1]//section[2]//button[1]:=Xpath #ViewSeats
+
+E_Choose Boarding Point=//fieldset[@class='flex u_marT5']//select[@class='selectPickup selt-option']:=Xpath #Choose boarding point
+E_Choose Dropping Point=//select[@class='selectDrop selt-option']:=xpath #choose Dropping point
+E_Proceed With Seats=//button[@class='CTA-green proceed u_font14 u_fontW600']:=xpath #proceed with seats button
+
+E_SearchBuses=//div[contains(@class,'row flex item-start u_pad0 bus-search-container')]//ul[2]//li[1]//section[2]//button[1]:=Xpath #ViewSeats
+E_Choose Boarding Point=//fieldset[@class='flex u_marT5']//select[@class='selectPickup selt-option']:=Xpath #Choose boarding point
+E_Choose Dropping Point=//select[@class='selectDrop selt-option']:=xpath #choose Dropping point
+E_Proceed With Seats=//button[@class='CTA-green proceed u_font14 u_fontW600']:=xpath #proceed with seats button
+
+E_Select Title=room1Adult1Title:=ID #tile
+E_Name=Adult1FirstName :=ID #Name
+E_Age=Adult1Age :=Age #Name
+E_Select country code=ISDCodeTr:=ID #country code
+E_Mobile=contactMobile:=ID #mobile 
+E_Email=contactEmail:=ID #Email
+E_ckeckBox=//label[@for='domestic_insurance'] :=Xpath #add travel insurance
+E_ViaCash=//div[contains(text(),'Login to use your ViaCash balance')] :=Xpath # via cash payment
+E_checkbox=read_terms_label:=ID #checkbox for terms and conditions
+E_Proceed to booking=makePayCTA:=ID #proceed to booking button
+
+E_Make Payment=confirmProceedPayBtn:=ID #Make payment
+
+
+#Packages
+
+E_source=//select[@id='pkg_src']:=Xpath #Source
+E_Destination=//select[@id='pkg_dest'] :=Xpath #Destination
+E_Departure date=//div[@id='package']//div[@class='calendar-icon']:=Xpath #Departure date
+E_Search buses=//*[contains(@value,'Search Buses')]:=Xpath #search buses
+E_Choose Boarding Point=//fieldset[@class='flex u_marT5']//select[@class='selectPickup selt-option']:=Xpath #Choose boarding point
+E_Choose Dropping Point=//select[@class='selectDrop selt-option']:=xpath #choose Dropping point
+E_Proceed With Seats=//button[@class='CTA-green proceed u_font14 u_fontW600']:=xpath #proceed with seats button
+
+E_Select Title=room1Adult1Title:=ID #tile
+E_Name=Adult1FirstName :=ID #Name
+E_Age=Adult1Age :=Age #Name
+E_Select country code=ISDCodeTr:=ID #country code
+E_Mobile=contactMobile:=ID #mobile 
+E_Email=contactEmail:=ID #Email
+E_ckeckBox=//label[@for='domestic_insurance'] :=Xpath #add travel insurance
+E_ViaCash=//div[contains(text(),'Login to use your ViaCash balance')] :=Xpath # via cash payment
+E_checkbox=read_terms_label:=ID #checkbox for terms and conditions
+E_Proceed to booking=makePayCTA:=ID #proceed to booking button
+
+E_Make Payment=confirmProceedPayBtn:=ID #Make payment
+
+
+
+
+
+
+
+
+
+
